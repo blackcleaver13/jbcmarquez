@@ -33,6 +33,9 @@ section{padding:var(--s4) 0;border-top:1px solid var(--line)}
 /* hero */
 .hero{padding:var(--s5) 0 var(--s4);border-top:0}
 .hero h1 em{color:var(--signal);font-style:italic}
+.hero-intro{display:flex;align-items:center;gap:clamp(1rem,4vw,3rem);margin-bottom:var(--s2)}
+.hero-intro h1{margin:0}
+.hero-portrait{width:clamp(5rem,18vw,12rem);aspect-ratio:1;object-fit:cover;border:1px solid var(--ink)}
 .hero .lede{max-width:40rem;font-size:1.25rem;color:var(--muted)}
 .btn{display:inline-block;font-family:var(--font-mono);font-size:var(--t-small);text-transform:uppercase;letter-spacing:.06em;padding:.85rem 1.4rem;border:2px solid var(--ink);background:var(--ink);color:var(--paper);text-decoration:none;cursor:pointer;transition:transform .2s,background .2s,color .2s}
 .btn:hover{background:var(--signal);border-color:var(--signal);color:#fff;transform:translate(-3px,-3px);box-shadow:3px 3px 0 var(--ink)}
